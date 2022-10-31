@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #101211 ;
+}
+.container {
+padding-left: -100px;
+padding-top: 10px;
+padding-bottom: 20px;
+width: 350px;
+height: 50%;
+border-radius: 25px;
+box-shadow: 0 0 6px ;
+background: #1C1C1C;
+transition: .5s ease-in-out;
+}
+
+.title {
+    font-weight: 500;
+    color: #2196F3;
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.input{
+    width: 197px;
+    height: 0;
+    margin-top: 6%;
+    margin-left: 12%;
+}
+
+input, select, textarea{
+    color: white;
+}
+
+
+.email {
+    background-position: 1px 3px;
+    background-repeat: no-repeat;
+    background-color: #1C1C1C;
+    margin-bottom: 26px;
+    width: 240px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 22px;
+}
+
+
+
+
+.email:focus {
+    background-color: #1C1C1C;
+    outline: none;
+}
+
+
+
+.password {
+    background-color: #1C1C1C;
+    width: 240px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 22px;
+}
+
+.password:focus {
+    background-color: #1C1C1C;
+    outline: none;
+}
+
+
+.container .login {
+    width: 0;
+    margin-left: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.button {
+    background-color: #1976D9;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 4px 20px;
+    border: none; 
+    margin-top: 120px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.button:hover{
+
+    transition: .2s ease-in-out;
+}
+
+.signUp {
+
+    color: white;
+    margin: auto;
+    width: 60%;
+    margin-left: 82px;
+}
+.sign {
+    font-size: 16px;
+    color: #1976D9;
+}
+
+.decoration {
+    text-decoration: none;
+}
+
+.reset {
+    height: 0;
+    font-size: 16px;
+    color: #2196F3;
+    text-decoration: none;
+    position: relative;
+    top: 105px;
+    margin-left: 55px;
+}
+
+.login {
+    height: 120px;
+
+}
+
+.icon {
+    color: #1976D9;
+    position: absolute;
+    margin-top: 9px;
+}
+
+.locker {
+    margin-top: 9px;
+    color: #1976D9;
+    position: absolute;
+}
+
+#eyeP {
+    position: absolute;
+    margin-left: 242px; 
+    margin-top: 9px;
+    color: #1976D9 ;
+    cursor: pointer;
+}
+.profile {
+    margin-left: 150px;
+    margin-top: -20px;
+    position: absolute;
+    font-size: 14px;
+    background-color: #1976D9;
+    padding: 12px 18px;
+    border-radius: 50%;
+}
+
+
+.head.icon {
+    color: #1976D9;
+}
